@@ -6,7 +6,12 @@ const eventCode = document.querySelector("#eventcode");
 const eventWhich = document.querySelector("#eventwhich");
 
 document.addEventListener("keydown", () => {
-    console.log("intereseting");
-    
-
+    console.log("interesting");
 })
+
+header.addEventListener("keydown", () => {
+    header.textContent = event.which;
+    console.log(header);
+})
+
+eventKey.addEventListener()
