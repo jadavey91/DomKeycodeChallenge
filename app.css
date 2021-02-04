@@ -1,2 +1,18 @@
+body {
+    background: linear-gradient(0.1turn, rgb(0, 204, 255), rgb(230, 2, 230));
+    height: 100vh;
+    
+}
 
+h1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding:40vh;
+    padding-bottom: 40px;
+}
 
+.container {
+    display: flex;
+    justify-content: space-around;
+}
