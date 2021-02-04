@@ -10,8 +10,21 @@ document.addEventListener("keydown", () => {
 })
 
 header.addEventListener("keydown", () => {
-    header.textContent = event.which;
-    console.log(header);
+    header.innerHTML = event.which;
+    // console.log(header);
+    // header.style.color = "red";
 })
 
-eventKey.addEventListener()
+eventKey.addEventListener("keydown", () => {
+    eventKey.textContent.innerHTML = event.key;
+})
+
+eventCode.addEventListener("keydown", () => {
+    eventCode.textContent = event.code;
+})
+
+eventWhich.addEventListener("keydown", () => {
+    eventWhich.textContent = keydown.which;
+})
+
+// eventKey.addEventListener()
